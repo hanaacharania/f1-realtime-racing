@@ -1,24 +1,49 @@
 //finish line
-const finishLine = { x: 644, y: 238 };
+// canada: 644, 238
+const finishLine = { x: 664, y: 271 };
 
 let gameOver = false;
 
+// canada
+// const waypoints = [ //change
+//   { x: 720, y: 370 },
+//   { x: 482, y: 382 },
+//   { x: 448, y: 420 },
+//   { x: 334, y: 372 },
+//   { x: 36, y: 85 },
+//   { x: 86, y: 91 },
+//   { x: 224, y: 99 },
+//   { x: 370, y: 140 },
+//   { x: finishLine.x, y: finishLine.y }
+// ];
+
+// austria
+
 const waypoints = [ //change
-  { x: 720, y: 370 },
-  { x: 482, y: 382 },
-  { x: 448, y: 420 },
-  { x: 334, y: 372 },
-  { x: 36, y: 85 },
-  { x: 86, y: 91 },
-  { x: 224, y: 99 },
-  { x: 370, y: 140 },
+  { x: 440, y: 493 }, 
+  { x: 424, y: 477 }, 
+  { x: 170, y: 247 },
+  { x: 114, y: 215 },
+  { x: 172, y: 165 },
+  { x: 428, y: 71 },
+  { x: 414, y: 151 },
+
+  { x: 284, y: 251 },
+  { x: 366, y: 341 },
+  { x: 420, y: 255 },
+
+  { x: 622, y: 131 },
+  { x: 684, y: 215 },
+
+
   { x: finishLine.x, y: finishLine.y }
 ];
 
 //car
 let car = {
-  x: 738, //get this for every race
-  y: 295,
+  // canada: 738, 295
+  x: 550, //get this for every race
+  y: 378,
   width: 20,
   height: 10,
   color: "red",
@@ -31,8 +56,9 @@ let car = {
 // AI cars
 const aiCars = [
   {
-    x: 730,
-    y: 295,
+    // canada: 730, 295
+    x: 564,
+    y: 366,
     width: 20,
     height: 10,
     color: "blue",
